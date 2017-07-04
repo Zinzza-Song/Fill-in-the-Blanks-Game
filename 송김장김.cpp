@@ -61,7 +61,7 @@ int main()
       //5.단어를 맞췄으면 계속 할지 안할지 묻습니다. 
       do 
       {  
-   sndPlaySoundA("C:\\Users\\김수아\\Desktop\\ppang.wav",SND_ASYNC|SND_NODEFAULT);
+   sndPlaySoundA("C:\\Users\\thdgks\\Desktop\\ppang.wav",SND_ASYNC|SND_NODEFAULT);
          printf("계속하시겠습니까?(y/n)\n단, 노래가 끝난 후에 시작해주세요.\n"); 
          c = getch(); 
       } while (!(c == 'y' || c == 'n')); 
